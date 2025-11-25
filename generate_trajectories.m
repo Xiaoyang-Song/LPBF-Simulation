@@ -4,7 +4,7 @@ clear; clc;
 
 % ---------------------------
 % Number of trajectories to generate
-nTrajectories = 100;
+nTrajectories = 1000;
 
 % Root folder to save trajectories
 rootFolder = 'RL_Dataset';

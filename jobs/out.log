@@ -1,0 +1,43 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024b (24.2.0.2712019) 64-bit (glnxa64)
+                              August 22, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+Running trajectory 1/1000
+Saving this trajectory in folder: RL_Dataset/trajectory_001
+Layer 1/8 -> SS: 1296.2, LP: 552.9
+Layer 2/8 -> SS: 834.9, LP: 596.1
+Layer 3/8 -> SS: 1061.4, LP: 260.6
+Layer 4/8 -> SS: 483.1, LP: 544.0
+Layer 5/8 -> SS: 990.1, LP: 154.2
+Layer 6/8 -> SS: 806.6, LP: 185.4
+Layer 7/8 -> SS: 1442.7, LP: 372.6
+Layer 8/8 -> SS: 474.5, LP: 154.9
+
+Random Agent Simulation Complete.
+Step 1 -> SS=1296.2, LP=552.9 | Mean Deviation=1.80, Max Temp=4508.08 | uFinal size: [1053 x 1]
+Step 2 -> SS=834.9, LP=596.1 | Mean Deviation=6.05, Max Temp=6854.74 | uFinal size: [1053 x 1]
+Step 3 -> SS=1061.4, LP=260.6 | Mean Deviation=3.57, Max Temp=5236.44 | uFinal size: [1053 x 1]
+Step 4 -> SS=483.1, LP=544.0 | Mean Deviation=8.57, Max Temp=8131.82 | uFinal size: [1053 x 1]
+Step 5 -> SS=990.1, LP=154.2 | Mean Deviation=4.11, Max Temp=5411.77 | uFinal size: [1053 x 1]
+Step 6 -> SS=806.6, LP=185.4 | Mean Deviation=2.88, Max Temp=4862.70 | uFinal size: [1053 x 1]
+Step 7 -> SS=1442.7, LP=372.6 | Mean Deviation=6.31, Max Temp=6935.98 | uFinal size: [1053 x 1]
+Step 8 -> SS=474.5, LP=154.9 | Mean Deviation=3.59, Max Temp=5231.51 | uFinal size: [1053 x 1]
+Trajectory 1 finished in 28.28 seconds.
+
+Running trajectory 2/1000
+Saving this trajectory in folder: RL_Dataset/trajectory_002
+Layer 1/8 -> SS: 700.7, LP: 509.4
+Layer 2/8 -> SS: 1149.9, LP: 364.7
+Layer 3/8 -> SS: 586.6, LP: 357.1
+Layer 4/8 -> SS: 1485.5, LP: 361.5
+Layer 5/8 -> SS: 1302.3, LP: 308.5
+Layer 6/8 -> SS: 1434.3, LP: 327.7
+Layer 7/8 -> SS: 1144.0, LP: 303.5
+Layer 8/8 -> SS: 627.0, LP: 379.8
