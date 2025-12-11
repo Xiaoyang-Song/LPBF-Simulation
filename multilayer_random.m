@@ -58,7 +58,9 @@ function multilayer_random(trajID, root_dir)
     % ---------------------------
     % Define action ranges
     SS_range = [400, 1500];    % SS min/max
-    LP_range = [100, 600];     % LP min/max
+    % LP_range = [100, 600];     % LP min/max
+    LP_values = [100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600];  % discrete LP choices
+
     nSteps = 8;  % number of steps
 
     % Define layer evolution
@@ -81,7 +83,9 @@ function multilayer_random(trajID, root_dir)
     for i = 1:nSteps
         % Random agent generates actions
         SS_action = SS_range(1) + rand()*(SS_range(2)-SS_range(1));
-        LP_action = LP_range(1) + rand()*(LP_range(2)-LP_range(1));
+        % LP_action = LP_range(1) + rand()*(LP_range(2)-LP_range(1));
+        LP_action = LP_values(randi(numel(LP_values)));
+
         
         actions(i,:) = [SS_action, LP_action];
         paramsStruct.params.SS = SS_action;
