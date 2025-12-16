@@ -2,7 +2,7 @@
 #SBATCH --job-name=matlab_job
 #SBATCH --account=jhjin1
 #SBATCH --partition=standard
-#SBATCH --time=24:00:00
+#SBATCH --time=48:00:00
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=32

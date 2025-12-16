@@ -59,7 +59,8 @@ function multilayer_random(trajID, root_dir)
     % Define action ranges
     SS_range = [400, 1500];    % SS min/max
     % LP_range = [100, 600];     % LP min/max
-    LP_values = [100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600];  % discrete LP choices
+    % LP_values = [100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600];  % discrete LP choices
+    LP_values = 100:20:600;
 
     nSteps = 8;  % number of steps
 
