@@ -23,7 +23,7 @@ function multilayer_random(trajID, root_dir)
     paramsStruct.nTimeStepsHeat = 50;
     paramsStruct.nTimeStepsCool = 50;
     paramsStruct.doPlot = false;  
-    paramsStruct.tempRange = [2500, 3000];  % target temperature range
+    paramsStruct.tempRange = [2000, 2800];  % target temperature range
     
     % Single run test
     
@@ -36,7 +36,7 @@ function multilayer_random(trajID, root_dir)
    
     % ---------------------------
     % Root folder for all trajectories
-    rootFolder = 'RL_Dataset';
+    rootFolder = 'RL_Dataset_new';
     if ~exist(rootFolder,'dir')
         mkdir(rootFolder);
     end
@@ -60,9 +60,9 @@ function multilayer_random(trajID, root_dir)
     SS_range = [400, 1500];    % SS min/max
     % LP_range = [100, 600];     % LP min/max
     % LP_values = [100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600];  % discrete LP choices
-    LP_values = 100:20:600;
+    LP_values = 150:10:300;  % discrete LP choices from 150 to 300 with step of 10
 
-    nSteps = 8;  % number of steps
+    nSteps = 12;  % number of steps
 
     % Define layer evolution
     initialFraction = 0.4;
