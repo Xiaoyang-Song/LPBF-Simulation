@@ -7,7 +7,7 @@
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=8G
-#SBATCH --output=/scratch/sunwbgt_root/sunwbgt98/xysong/LPBF-Simulation/jobs/out.log
+#SBATCH --output=/nfs/turbo/coe-sunwbgt/xysong/LPBF-Simulation/jobs/generation.log
 
 module load matlab
 

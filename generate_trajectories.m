@@ -7,7 +7,7 @@ clear; clc;
 nTrajectories = 5000;
 
 % Root folder to save trajectories
-rootFolder = 'RL_Dataset';
+rootFolder = 'RL_Dataset_lc';
 if ~exist(rootFolder,'dir')
     mkdir(rootFolder);
 end

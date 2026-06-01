@@ -40,6 +40,9 @@ codegen/
 *.sbproj.bak
 
 RL_Dataset/
+RL_Dataset_normal/
+RL_Dataset_lc/
+RL_Dataset_ct_*/
 RL_Dataset_50/
 resources/
 .DS_Store
