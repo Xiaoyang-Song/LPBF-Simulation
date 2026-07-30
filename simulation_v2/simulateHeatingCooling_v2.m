@@ -1,4 +1,4 @@
-function [uFinal, tAll, uAll, resultAll, model, meanDeviation] = simulateHeatingCooling_v2(paramsStruct)
+function [uFinal, tAll, uAll, resultAll, model, meanDeviation, uHeatFinal] = simulateHeatingCooling_v2(paramsStruct)
 % SIMULATEHEATINGCOOLING_V2 Simulates heating and cooling of a 2D domain
 %
 % Same as simulateHeatingCooling.m, except the reward (meanDeviation) is
@@ -23,6 +23,8 @@ function [uFinal, tAll, uAll, resultAll, model, meanDeviation] = simulateHeating
 %   model         - PDE model object
 %   meanDeviation - mean deviation of temperature inside the square from
 %                   the range, evaluated at the END OF HEATING
+%   uHeatFinal    - temperature distribution at the last step of heating
+%                   (this is what meanDeviation is computed from)
 
 %% ---------------------------
 % Material parameters
@@ -75,6 +77,10 @@ setInitialConditions(model, paramsStruct.ic);
 resultHeat = solvepde(model, tlistHeat);
 uHeat = resultHeat.NodalSolution;
 
+% Temperature distribution at the end of heating (returned to the caller
+% so it can be retrieved/stored directly, e.g. for reward computation)
+uHeatFinal = uHeat(:,end);
+
 %% ---------------------------
 % Compute mean deviation inside the square AT THE END OF HEATING
 % (this is the reward signal; it no longer waits for cooling to finish)
@@ -86,11 +92,8 @@ if isfield(paramsStruct,'tempRange')
     nodes = model.Mesh.Nodes';
     inSquare = inpolygon(nodes(:,1), nodes(:,2), sqX, sqY);
 
-    % Temperature at the end of heating
-    uEndHeat = uHeat(:,end);
-
     % Deviation from the range
-    uInSq = uEndHeat(inSquare);
+    uInSq = uHeatFinal(inSquare);
     deviation = zeros(size(uInSq));
     deviation(uInSq < T_l) = T_l - uInSq(uInSq < T_l);
     deviation(uInSq > T_h) = uInSq(uInSq > T_h) - T_h;

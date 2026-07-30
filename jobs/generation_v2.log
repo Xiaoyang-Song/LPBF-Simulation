@@ -1,0 +1,232 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024b (24.2.0.2712019) 64-bit (glnxa64)
+                              August 22, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+Running trajectory 1/5
+Saving this trajectory in folder: RL_Dataset_v2/trajectory_001
+Cooling time for this trajectory: 0.1300 s
+Layer 1/12 -> SS: 1396.4, LP: 130.0, coolTime: 0.1300
+Layer 1/12 -> Mean Deviation (reward, end-of-heating): 1.2995
+Layer 2/12 -> SS: 1491.4, LP: 220.0, coolTime: 0.1300
+Layer 2/12 -> Mean Deviation (reward, end-of-heating): 0.6410
+Layer 3/12 -> SS: 753.3, LP: 180.0, coolTime: 0.1300
+Layer 3/12 -> Mean Deviation (reward, end-of-heating): 0.6295
+Layer 4/12 -> SS: 1376.8, LP: 270.0, coolTime: 0.1300
+Layer 4/12 -> Mean Deviation (reward, end-of-heating): 0.3829
+Layer 5/12 -> SS: 519.3, LP: 360.0, coolTime: 0.1300
+Layer 5/12 -> Mean Deviation (reward, end-of-heating): 0.5358
+Layer 6/12 -> SS: 587.8, LP: 350.0, coolTime: 0.1300
+Layer 6/12 -> Mean Deviation (reward, end-of-heating): 0.5760
+Layer 7/12 -> SS: 999.8, LP: 190.0, coolTime: 0.1300
+Layer 7/12 -> Mean Deviation (reward, end-of-heating): 0.0828
+Layer 8/12 -> SS: 520.7, LP: 260.0, coolTime: 0.1300
+Layer 8/12 -> Mean Deviation (reward, end-of-heating): 0.2455
+Layer 9/12 -> SS: 1300.7, LP: 160.0, coolTime: 0.1300
+Layer 9/12 -> Mean Deviation (reward, end-of-heating): 0.1249
+Layer 10/12 -> SS: 982.4, LP: 350.0, coolTime: 0.1300
+Layer 10/12 -> Mean Deviation (reward, end-of-heating): 0.7505
+Layer 11/12 -> SS: 965.6, LP: 340.0, coolTime: 0.1300
+Layer 11/12 -> Mean Deviation (reward, end-of-heating): 0.9981
+Layer 12/12 -> SS: 975.3, LP: 360.0, coolTime: 0.1300
+Layer 12/12 -> Mean Deviation (reward, end-of-heating): 1.3193
+
+Random Agent Simulation Complete.
+Step 1 -> SS=1396.4, LP=130.0 | Mean Deviation (end-of-heating)=1.30, Max Temp=458.95 | uFinal size: [1053 x 1]
+Step 2 -> SS=1491.4, LP=220.0 | Mean Deviation (end-of-heating)=0.64, Max Temp=693.55 | uFinal size: [1053 x 1]
+Step 3 -> SS=753.3, LP=180.0 | Mean Deviation (end-of-heating)=0.63, Max Temp=747.59 | uFinal size: [1053 x 1]
+Step 4 -> SS=1376.8, LP=270.0 | Mean Deviation (end-of-heating)=0.38, Max Temp=948.45 | uFinal size: [1053 x 1]
+Step 5 -> SS=519.3, LP=360.0 | Mean Deviation (end-of-heating)=0.54, Max Temp=1214.00 | uFinal size: [1053 x 1]
+Step 6 -> SS=587.8, LP=350.0 | Mean Deviation (end-of-heating)=0.58, Max Temp=1474.07 | uFinal size: [1053 x 1]
+Step 7 -> SS=999.8, LP=190.0 | Mean Deviation (end-of-heating)=0.08, Max Temp=1316.54 | uFinal size: [1053 x 1]
+Step 8 -> SS=520.7, LP=260.0 | Mean Deviation (end-of-heating)=0.25, Max Temp=1416.23 | uFinal size: [1053 x 1]
+Step 9 -> SS=1300.7, LP=160.0 | Mean Deviation (end-of-heating)=0.12, Max Temp=1272.81 | uFinal size: [1053 x 1]
+Step 10 -> SS=982.4, LP=350.0 | Mean Deviation (end-of-heating)=0.75, Max Temp=1705.04 | uFinal size: [1053 x 1]
+Step 11 -> SS=965.6, LP=340.0 | Mean Deviation (end-of-heating)=1.00, Max Temp=1904.39 | uFinal size: [1053 x 1]
+Step 12 -> SS=975.3, LP=360.0 | Mean Deviation (end-of-heating)=1.32, Max Temp=2090.91 | uFinal size: [1053 x 1]
+Cooling time used for this trajectory: 0.1300 s
+Trajectory 1 finished in 45.45 seconds.
+
+Running trajectory 2/5
+Saving this trajectory in folder: RL_Dataset_v2/trajectory_002
+Cooling time for this trajectory: 0.0900 s
+Layer 1/12 -> SS: 1189.6, LP: 350.0, coolTime: 0.0900
+Layer 1/12 -> Mean Deviation (reward, end-of-heating): 0.5614
+Layer 2/12 -> SS: 522.5, LP: 110.0, coolTime: 0.0900
+Layer 2/12 -> Mean Deviation (reward, end-of-heating): 0.7802
+Layer 3/12 -> SS: 1400.5, LP: 360.0, coolTime: 0.0900
+Layer 3/12 -> Mean Deviation (reward, end-of-heating): 0.5196
+Layer 4/12 -> SS: 1249.7, LP: 270.0, coolTime: 0.0900
+Layer 4/12 -> Mean Deviation (reward, end-of-heating): 0.3489
+Layer 5/12 -> SS: 592.3, LP: 220.0, coolTime: 0.0900
+Layer 5/12 -> Mean Deviation (reward, end-of-heating): 0.2246
+Layer 6/12 -> SS: 940.1, LP: 270.0, coolTime: 0.0900
+Layer 6/12 -> Mean Deviation (reward, end-of-heating): 0.3399
+Layer 7/12 -> SS: 791.0, LP: 100.0, coolTime: 0.0900
+Layer 7/12 -> Mean Deviation (reward, end-of-heating): 0.0913
+Layer 8/12 -> SS: 520.7, LP: 330.0, coolTime: 0.0900
+Layer 8/12 -> Mean Deviation (reward, end-of-heating): 0.6465
+Layer 9/12 -> SS: 527.9, LP: 120.0, coolTime: 0.0900
+Layer 9/12 -> Mean Deviation (reward, end-of-heating): 0.0581
+Layer 10/12 -> SS: 452.8, LP: 240.0, coolTime: 0.0900
+Layer 10/12 -> Mean Deviation (reward, end-of-heating): 0.3414
+Layer 11/12 -> SS: 1106.9, LP: 340.0, coolTime: 0.0900
+Layer 11/12 -> Mean Deviation (reward, end-of-heating): 1.1485
+Layer 12/12 -> SS: 1006.9, LP: 400.0, coolTime: 0.0900
+Layer 12/12 -> Mean Deviation (reward, end-of-heating): 1.9815
+
+Random Agent Simulation Complete.
+Step 1 -> SS=1189.6, LP=350.0 | Mean Deviation (end-of-heating)=0.56, Max Temp=1030.82 | uFinal size: [1053 x 1]
+Step 2 -> SS=522.5, LP=110.0 | Mean Deviation (end-of-heating)=0.78, Max Temp=865.07 | uFinal size: [1053 x 1]
+Step 3 -> SS=1400.5, LP=360.0 | Mean Deviation (end-of-heating)=0.52, Max Temp=1434.44 | uFinal size: [1053 x 1]
+Step 4 -> SS=1249.7, LP=270.0 | Mean Deviation (end-of-heating)=0.35, Max Temp=1512.61 | uFinal size: [1053 x 1]
+Step 5 -> SS=592.3, LP=220.0 | Mean Deviation (end-of-heating)=0.22, Max Temp=1490.42 | uFinal size: [1053 x 1]
+Step 6 -> SS=940.1, LP=270.0 | Mean Deviation (end-of-heating)=0.34, Max Temp=1748.65 | uFinal size: [1053 x 1]
+Step 7 -> SS=791.0, LP=100.0 | Mean Deviation (end-of-heating)=0.09, Max Temp=1431.53 | uFinal size: [1053 x 1]
+Step 8 -> SS=520.7, LP=330.0 | Mean Deviation (end-of-heating)=0.65, Max Temp=1947.91 | uFinal size: [1053 x 1]
+Step 9 -> SS=527.9, LP=120.0 | Mean Deviation (end-of-heating)=0.06, Max Temp=1623.26 | uFinal size: [1053 x 1]
+Step 10 -> SS=452.8, LP=240.0 | Mean Deviation (end-of-heating)=0.34, Max Temp=1922.40 | uFinal size: [1053 x 1]
+Step 11 -> SS=1106.9, LP=340.0 | Mean Deviation (end-of-heating)=1.15, Max Temp=2394.15 | uFinal size: [1053 x 1]
+Step 12 -> SS=1006.9, LP=400.0 | Mean Deviation (end-of-heating)=1.98, Max Temp=2857.44 | uFinal size: [1053 x 1]
+Cooling time used for this trajectory: 0.0900 s
+Trajectory 2 finished in 29.09 seconds.
+
+Running trajectory 3/5
+Saving this trajectory in folder: RL_Dataset_v2/trajectory_003
+Cooling time for this trajectory: 0.0600 s
+Layer 1/12 -> SS: 603.8, LP: 160.0, coolTime: 0.0600
+Layer 1/12 -> Mean Deviation (reward, end-of-heating): 1.1072
+Layer 2/12 -> SS: 1297.5, LP: 270.0, coolTime: 0.0600
+Layer 2/12 -> Mean Deviation (reward, end-of-heating): 0.4273
+Layer 3/12 -> SS: 420.8, LP: 330.0, coolTime: 0.0600
+Layer 3/12 -> Mean Deviation (reward, end-of-heating): 0.5276
+Layer 4/12 -> SS: 898.2, LP: 170.0, coolTime: 0.0600
+Layer 4/12 -> Mean Deviation (reward, end-of-heating): 0.1768
+Layer 5/12 -> SS: 1330.1, LP: 170.0, coolTime: 0.0600
+Layer 5/12 -> Mean Deviation (reward, end-of-heating): 0.1635
+Layer 6/12 -> SS: 877.9, LP: 280.0, coolTime: 0.0600
+Layer 6/12 -> Mean Deviation (reward, end-of-heating): 0.4582
+Layer 7/12 -> SS: 1291.2, LP: 300.0, coolTime: 0.0600
+Layer 7/12 -> Mean Deviation (reward, end-of-heating): 0.9408
+Layer 8/12 -> SS: 667.0, LP: 380.0, coolTime: 0.0600
+Layer 8/12 -> Mean Deviation (reward, end-of-heating): 1.8870
+Layer 9/12 -> SS: 477.4, LP: 380.0, coolTime: 0.0600
+Layer 9/12 -> Mean Deviation (reward, end-of-heating): 2.1449
+Layer 10/12 -> SS: 958.4, LP: 390.0, coolTime: 0.0600
+Layer 10/12 -> Mean Deviation (reward, end-of-heating): 2.8279
+Layer 11/12 -> SS: 1233.7, LP: 110.0, coolTime: 0.0600
+Layer 11/12 -> Mean Deviation (reward, end-of-heating): 1.2148
+Layer 12/12 -> SS: 713.5, LP: 260.0, coolTime: 0.0600
+Layer 12/12 -> Mean Deviation (reward, end-of-heating): 1.7581
+
+Random Agent Simulation Complete.
+Step 1 -> SS=603.8, LP=160.0 | Mean Deviation (end-of-heating)=1.11, Max Temp=760.91 | uFinal size: [1053 x 1]
+Step 2 -> SS=1297.5, LP=270.0 | Mean Deviation (end-of-heating)=0.43, Max Temp=1364.39 | uFinal size: [1053 x 1]
+Step 3 -> SS=420.8, LP=330.0 | Mean Deviation (end-of-heating)=0.53, Max Temp=1890.17 | uFinal size: [1053 x 1]
+Step 4 -> SS=898.2, LP=170.0 | Mean Deviation (end-of-heating)=0.18, Max Temp=1695.53 | uFinal size: [1053 x 1]
+Step 5 -> SS=1330.1, LP=170.0 | Mean Deviation (end-of-heating)=0.16, Max Temp=1680.17 | uFinal size: [1053 x 1]
+Step 6 -> SS=877.9, LP=280.0 | Mean Deviation (end-of-heating)=0.46, Max Temp=2201.40 | uFinal size: [1053 x 1]
+Step 7 -> SS=1291.2, LP=300.0 | Mean Deviation (end-of-heating)=0.94, Max Temp=2575.52 | uFinal size: [1053 x 1]
+Step 8 -> SS=667.0, LP=380.0 | Mean Deviation (end-of-heating)=1.89, Max Temp=3129.86 | uFinal size: [1053 x 1]
+Step 9 -> SS=477.4, LP=380.0 | Mean Deviation (end-of-heating)=2.14, Max Temp=3512.68 | uFinal size: [1053 x 1]
+Step 10 -> SS=958.4, LP=390.0 | Mean Deviation (end-of-heating)=2.83, Max Temp=3986.92 | uFinal size: [1053 x 1]
+Step 11 -> SS=1233.7, LP=110.0 | Mean Deviation (end-of-heating)=1.21, Max Temp=3149.28 | uFinal size: [1053 x 1]
+Step 12 -> SS=713.5, LP=260.0 | Mean Deviation (end-of-heating)=1.76, Max Temp=3432.36 | uFinal size: [1053 x 1]
+Cooling time used for this trajectory: 0.0600 s
+Trajectory 3 finished in 30.42 seconds.
+
+Running trajectory 4/5
+Saving this trajectory in folder: RL_Dataset_v2/trajectory_004
+Cooling time for this trajectory: 0.0600 s
+Layer 1/12 -> SS: 945.3, LP: 180.0, coolTime: 0.0600
+Layer 1/12 -> Mean Deviation (reward, end-of-heating): 0.9825
+Layer 2/12 -> SS: 1381.1, LP: 350.0, coolTime: 0.0600
+Layer 2/12 -> Mean Deviation (reward, end-of-heating): 0.5038
+Layer 3/12 -> SS: 582.0, LP: 200.0, coolTime: 0.0600
+Layer 3/12 -> Mean Deviation (reward, end-of-heating): 0.2453
+Layer 4/12 -> SS: 726.7, LP: 380.0, coolTime: 0.0600
+Layer 4/12 -> Mean Deviation (reward, end-of-heating): 0.8264
+Layer 5/12 -> SS: 1103.0, LP: 340.0, coolTime: 0.0600
+Layer 5/12 -> Mean Deviation (reward, end-of-heating): 0.9938
+Layer 6/12 -> SS: 625.6, LP: 360.0, coolTime: 0.0600
+Layer 6/12 -> Mean Deviation (reward, end-of-heating): 1.6097
+Layer 7/12 -> SS: 839.9, LP: 260.0, coolTime: 0.0600
+Layer 7/12 -> Mean Deviation (reward, end-of-heating): 1.3259
+Layer 8/12 -> SS: 1098.8, LP: 360.0, coolTime: 0.0600
+Layer 8/12 -> Mean Deviation (reward, end-of-heating): 2.1181
+Layer 9/12 -> SS: 937.1, LP: 330.0, coolTime: 0.0600
+Layer 9/12 -> Mean Deviation (reward, end-of-heating): 2.0510
+Layer 10/12 -> SS: 832.9, LP: 350.0, coolTime: 0.0600
+Layer 10/12 -> Mean Deviation (reward, end-of-heating): 2.6004
+Layer 11/12 -> SS: 432.7, LP: 230.0, coolTime: 0.0600
+Layer 11/12 -> Mean Deviation (reward, end-of-heating): 2.0790
+Layer 12/12 -> SS: 1148.2, LP: 350.0, coolTime: 0.0600
+Layer 12/12 -> Mean Deviation (reward, end-of-heating): 2.8612
+
+Random Agent Simulation Complete.
+Step 1 -> SS=945.3, LP=180.0 | Mean Deviation (end-of-heating)=0.98, Max Temp=821.67 | uFinal size: [1053 x 1]
+Step 2 -> SS=1381.1, LP=350.0 | Mean Deviation (end-of-heating)=0.50, Max Temp=1653.82 | uFinal size: [1053 x 1]
+Step 3 -> SS=582.0, LP=200.0 | Mean Deviation (end-of-heating)=0.25, Max Temp=1614.90 | uFinal size: [1053 x 1]
+Step 4 -> SS=726.7, LP=380.0 | Mean Deviation (end-of-heating)=0.83, Max Temp=2269.86 | uFinal size: [1053 x 1]
+Step 5 -> SS=1103.0, LP=340.0 | Mean Deviation (end-of-heating)=0.99, Max Temp=2506.93 | uFinal size: [1053 x 1]
+Step 6 -> SS=625.6, LP=360.0 | Mean Deviation (end-of-heating)=1.61, Max Temp=2954.14 | uFinal size: [1053 x 1]
+Step 7 -> SS=839.9, LP=260.0 | Mean Deviation (end-of-heating)=1.33, Max Temp=2896.71 | uFinal size: [1053 x 1]
+Step 8 -> SS=1098.8, LP=360.0 | Mean Deviation (end-of-heating)=2.12, Max Temp=3328.75 | uFinal size: [1053 x 1]
+Step 9 -> SS=937.1, LP=330.0 | Mean Deviation (end-of-heating)=2.05, Max Temp=3511.54 | uFinal size: [1053 x 1]
+Step 10 -> SS=832.9, LP=350.0 | Mean Deviation (end-of-heating)=2.60, Max Temp=3884.54 | uFinal size: [1053 x 1]
+Step 11 -> SS=432.7, LP=230.0 | Mean Deviation (end-of-heating)=2.08, Max Temp=3644.90 | uFinal size: [1053 x 1]
+Step 12 -> SS=1148.2, LP=350.0 | Mean Deviation (end-of-heating)=2.86, Max Temp=4095.03 | uFinal size: [1053 x 1]
+Cooling time used for this trajectory: 0.0600 s
+Trajectory 4 finished in 29.58 seconds.
+
+Running trajectory 5/5
+Saving this trajectory in folder: RL_Dataset_v2/trajectory_005
+Cooling time for this trajectory: 0.0800 s
+Layer 1/12 -> SS: 608.5, LP: 290.0, coolTime: 0.0800
+Layer 1/12 -> Mean Deviation (reward, end-of-heating): 0.5550
+Layer 2/12 -> SS: 703.2, LP: 380.0, coolTime: 0.0800
+Layer 2/12 -> Mean Deviation (reward, end-of-heating): 0.6090
+Layer 3/12 -> SS: 648.5, LP: 360.0, coolTime: 0.0800
+Layer 3/12 -> Mean Deviation (reward, end-of-heating): 0.7175
+Layer 4/12 -> SS: 1015.4, LP: 210.0, coolTime: 0.0800
+Layer 4/12 -> Mean Deviation (reward, end-of-heating): 0.2451
+Layer 5/12 -> SS: 1252.1, LP: 390.0, coolTime: 0.0800
+Layer 5/12 -> Mean Deviation (reward, end-of-heating): 0.9818
+Layer 6/12 -> SS: 1227.0, LP: 160.0, coolTime: 0.0800
+Layer 6/12 -> Mean Deviation (reward, end-of-heating): 0.1560
+Layer 7/12 -> SS: 1293.2, LP: 230.0, coolTime: 0.0800
+Layer 7/12 -> Mean Deviation (reward, end-of-heating): 0.3600
+Layer 8/12 -> SS: 762.4, LP: 160.0, coolTime: 0.0800
+Layer 8/12 -> Mean Deviation (reward, end-of-heating): 0.1236
+Layer 9/12 -> SS: 1180.0, LP: 230.0, coolTime: 0.0800
+Layer 9/12 -> Mean Deviation (reward, end-of-heating): 0.3301
+Layer 10/12 -> SS: 1478.1, LP: 250.0, coolTime: 0.0800
+Layer 10/12 -> Mean Deviation (reward, end-of-heating): 0.6509
+Layer 11/12 -> SS: 533.3, LP: 220.0, coolTime: 0.0800
+Layer 11/12 -> Mean Deviation (reward, end-of-heating): 0.6388
+Layer 12/12 -> SS: 843.0, LP: 320.0, coolTime: 0.0800
+Layer 12/12 -> Mean Deviation (reward, end-of-heating): 1.3805
+
+Random Agent Simulation Complete.
+Step 1 -> SS=608.5, LP=290.0 | Mean Deviation (end-of-heating)=0.56, Max Temp=969.06 | uFinal size: [1053 x 1]
+Step 2 -> SS=703.2, LP=380.0 | Mean Deviation (end-of-heating)=0.61, Max Temp=1567.03 | uFinal size: [1053 x 1]
+Step 3 -> SS=648.5, LP=360.0 | Mean Deviation (end-of-heating)=0.72, Max Temp=1862.04 | uFinal size: [1053 x 1]
+Step 4 -> SS=1015.4, LP=210.0 | Mean Deviation (end-of-heating)=0.25, Max Temp=1694.37 | uFinal size: [1053 x 1]
+Step 5 -> SS=1252.1, LP=390.0 | Mean Deviation (end-of-heating)=0.98, Max Temp=2146.51 | uFinal size: [1053 x 1]
+Step 6 -> SS=1227.0, LP=160.0 | Mean Deviation (end-of-heating)=0.16, Max Temp=1862.65 | uFinal size: [1053 x 1]
+Step 7 -> SS=1293.2, LP=230.0 | Mean Deviation (end-of-heating)=0.36, Max Temp=2001.49 | uFinal size: [1053 x 1]
+Step 8 -> SS=762.4, LP=160.0 | Mean Deviation (end-of-heating)=0.12, Max Temp=1867.54 | uFinal size: [1053 x 1]
+Step 9 -> SS=1180.0, LP=230.0 | Mean Deviation (end-of-heating)=0.33, Max Temp=2050.21 | uFinal size: [1053 x 1]
+Step 10 -> SS=1478.1, LP=250.0 | Mean Deviation (end-of-heating)=0.65, Max Temp=2291.87 | uFinal size: [1053 x 1]
+Step 11 -> SS=533.3, LP=220.0 | Mean Deviation (end-of-heating)=0.64, Max Temp=2338.65 | uFinal size: [1053 x 1]
+Step 12 -> SS=843.0, LP=320.0 | Mean Deviation (end-of-heating)=1.38, Max Temp=2743.92 | uFinal size: [1053 x 1]
+Cooling time used for this trajectory: 0.0800 s
+Trajectory 5 finished in 29.61 seconds.
+
+All 5 trajectories completed.
