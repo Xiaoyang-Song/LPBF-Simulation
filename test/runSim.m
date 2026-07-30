@@ -1,14 +1,14 @@
 
                     cd('../../LPBF-Simulation/');
                     paramsStruct = load('test/params.mat').paramsStruct;
-                    if 11 > 0
+                    if 8 > 0
                         prevData = load('test/results.mat', 'resultCool');
                         paramsStruct.ic = prevData.resultCool;
                     end
                     [uFinal, tAll, uAll, resultAll, model, meanDeviation] = simulateHeatingCooling(paramsStruct);
                     resultCool = resultAll(2);
                     save('test/results.mat','uFinal','tAll','uAll','meanDeviation','resultCool');
-                    i=11;
+                    i=8;
                     fig = figure('Visible','off');
                     pdeplot(model,'XYData',uFinal,'Mesh','on','ColorMap','jet');
                     colorbar; caxis([300 5000]);
